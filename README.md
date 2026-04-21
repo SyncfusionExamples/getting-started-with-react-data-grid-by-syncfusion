@@ -1,32 +1,60 @@
+# Syncfusion React Grid Sample
+
+## Repository Description
+
+This repository contains a sample React application that demonstrates how to integrate and configure the Syncfusion EJ2 React Data Grid component to display structured tabular data. The project highlights essential grid features using a clean and minimal React functional component implementation.
+
+**YouTube Video**: https://www.youtube.com/watch?v=QNwcXokKc70
+
 ## Introduction
-Learn how easily you can create and configure the React Data Grid from Syncfusion using the "create-react-app" toolchain.
-This repository is the exercise files of the below mentioned YouTube video. In this video, I’ll create a new React application using the create-react-app toolchain and then add the React Data Grid by Syncfusion into it using the ej2-react-grids package. Also, I’ll explain the simple customizations that can be done on grid columns, as well as how to enable some important features such as paging, filtering, and grouping.
 
-YouTube Video: https://www.youtube.com/watch?v=QNwcXokKc70
+The purpose of this repository is to showcase the basic usage of the `@syncfusion/ej2-react-grids` package within a React and TypeScript environment. The application binds local JSON data to the grid and enables commonly used grid functionalities such as paging, filtering, and grouping. This sample serves as a practical reference for developers who want to understand how Syncfusion React Grid components work in a real application.
 
-REACT DATA GRID
-------------------
-Product overview: http://bit.ly/2nxdkBE
-<br/>Examples: http://bit.ly/2oTLobx
-<br/>Documentation: http://bit.ly/2oWM8wx
-<br/>Download free trial: http://bit.ly/2mCVGfp
-<br/>GitHub source: http://bit.ly/2mE6Kcl
-<br/>npmjs package: http://bit.ly/2oTHHTc
+## Project Overview
 
-SUBSCRIBE
-----------
-Syncfusion on YouTube: http://bit.ly/syncfusionyoutube
-<br/>Sign up to receive email updates: http://bit.ly/syncfusionemail
+The application renders an invoice-style data grid that displays Order ID, Customer ID, Ship Country, Ship Name, and Freight details. Grid behavior is configured through component properties, and required services are injected to activate specific features. Numeric columns are formatted for better readability, and pagination is used to manage data display efficiently.
 
-SOCIAL COMMUNITY
--------------
-Facebook: https://www.facebook.com/Syncfusion/ 
-<br/>Twitter: https://twitter.com/Syncfusion
-<br/>LinkedIn: https://www.linkedin.com/company/syncfusion
+## Key Features
 
-```
-npm install
-npm start
-```
-YouTube Video Link: https://www.youtube.com/watch?v=QNwcXokKc70
-<br/>Documentation Link: https://ej2.syncfusion.com/react/documentation/grid/getting-started
+- React functional component with TypeScript.
+- Syncfusion EJ2 React Grid integration.
+- Paging with configurable page size.
+- Column filtering support.
+- Grouping functionality.
+- Currency formatting for numeric values.
+
+## Prerequisites
+
+- Node.js (LTS version recommended)
+- npm package manager
+- Basic knowledge of React and TypeScript
+
+## Running the Application
+
+Follow these steps to run the application locally:
+
+1. Clone the repository
+    ```bash
+    git clone <repo_link>
+    ```
+2. Install dependencies and start the application
+    ```
+    npm i
+    npm start
+    ```
+The application will be available at `http://localhost:3000`.
+
+## Reference Documentation & Demo Links
+
+- [Syncfusion React Grid Documentation](https://ej2.syncfusion.com/react/documentation/grid/getting-started/)
+- [Paging](https://ej2.syncfusion.com/react/documentation/grid/paging/)
+- [Filtering](https://ej2.syncfusion.com/react/documentation/grid/filtering/filtering)
+- [React Version Compatibility](https://ej2.syncfusion.com/react/documentation/system-requirements/)
+- [Syncfusion React Grid Online Demos](https://ej2.syncfusion.com/react/demos/)
+- [Syncfusion NPM Package](https://www.npmjs.com/package/@syncfusion/ej2-react-grids)
+
+## Social Community
+
+- Facebook: https://www.facebook.com/Syncfusion/
+- Twitter: https://twitter.com/Syncfusion
+- LinkedIn: https://www.linkedin.com/company/syncfusion

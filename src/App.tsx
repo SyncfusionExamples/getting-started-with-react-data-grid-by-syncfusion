@@ -9,7 +9,6 @@ import {
   Group
 } from '@syncfusion/ej2-react-grids';
 import data from './dataSource.json';
-import './App.css';
 
 const App: React.FC = () => {
   return (

@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import '~@syncfusion/ej2-base/styles/material3.css';
+@import '~@syncfusion/ej2-calendars/styles/material3.css';
+@import '~@syncfusion/ej2-inputs/styles/material3.css';
+@import '~@syncfusion/ej2-popups/styles/material3.css';
+@import '~@syncfusion/ej2-navigations/styles/material3.css';
+@import '~@syncfusion/ej2-grids/styles/material3.css';
